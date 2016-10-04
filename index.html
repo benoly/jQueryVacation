@@ -12,27 +12,51 @@
         <h1>Vacation Destinations of the World</h1>
         <button class="scam" type="button">CLICK HERE</button>
         <i class="fa fa-bars fa-2x menu"></i>
+        <a href="#" class="toggle">Menu</a>
+        <div class="menuSlideBar">
+          <ul>
+            <a href="#">
+              <li>I. Home</li>
+            </a>
+            <a href="#">
+              <li>II. About</li>
+            </a>
+            <a href="#">
+              <li>III. Services</li>
+            </a>
+            <a href="#">
+              <li>IV. Contact</li>
+            </a>
+          </ul>
+        </div>
 
-        <h2><i class="fa fa-arrows-v"></i> Useful Links</h2>
-        <a href="#">Vacation Planning</a>
-        <a href="#">Snorkeling</a>
-        <a href="#">Excursions</a>
-        <a href="#">Deep Sea Fishing</a>
-        <a href="#">Cave Tours</a>
+        <h2><a href="#" class="fa fa-arrows-v" id="usefulLinks"></a> Useful Links</h2>
+
+        <a class="hide" href="#">Vacation Planning</a>
+        <a class="hide" href="#">Snorkeling</a>
+        <a class="hide" href="#">Excursions</a>
+        <a class="hide" href="#">Deep Sea Fishing</a>
+        <a class="hide" href="#">Cave Tours</a>
+      
       </div>
       <div class="linkbox">
         <i class="fa fa-arrow-left fa-3x"></i>
         <div class="box">
-          <img src="images/cancun.jpg" />
+          <img class="vacation" src="images/cancun.jpg" />
+          <img class="carlton" src="http://i.imgur.com/tpUz0me.gif"/>
         </div>
         <div class="box">
-          <img src="images/hawaii-art.jpg" />
+          <img class="vacation" src="images/hawaii-art.jpg" />
+          <img class="carlton" src="http://i.imgur.com/tpUz0me.gif"/>
         </div>
         <div class="box">
-          <img src="images/nyc.jpeg" />
+          <img class="vacation" src="images/nyc.jpeg" />
+          <img class="carlton" src="http://i.imgur.com/tpUz0me.gif"/>
         </div>
         <i class="fa fa-arrow-right fa-3x"></i>
       </div>
     </div>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>

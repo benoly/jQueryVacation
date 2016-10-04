@@ -55,3 +55,46 @@ a {
   display: block;
   text-decoration: none;
 }
+
+.menuSlideBar {
+  background: #1abc9c;
+  display: none;
+  width: 100%;
+}
+
+.menuSlideBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menuSlideBar ul li {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.menuSlideBar ul li:hover {
+  background: #16a085;
+}
+
+.menuSlideBar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.toggle {
+  font-size: 30px;
+  color: #1abc9c;
+}
+
+.carlton {
+  display:none;
+}
+
+.hide {
+  display: none;
+}
